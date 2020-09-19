@@ -1,5 +1,7 @@
 def hello_t(name)
-  while name.length > 0 
+  i = 0 
+
+while i < name.length 
   yield
   puts "#{name}"
 end
