@@ -3,6 +3,7 @@ def hello_t(name)
   yield
   puts "#{name}"
 end
+end
 
 # call your method here!
 
