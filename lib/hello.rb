@@ -2,8 +2,10 @@ def hello_t(name)
   i = 0 
 
 while i < name.length 
-  yield
-  puts "#{name}"
+  yield name [i]
+  i = i + 1 
+
+
 end
 end
 
